@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+body {
+  background: lightgray;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6em;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  padding: 2em;
+}
+
+div {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(26, 26, 26);
+}
+
+input[type="submit"] {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(18, 18, 28);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer
+}
+
+img{
+    width: 300px;
+    height: 60px;
+}
+
+font{
+    color: rgb(26, 24, 24);
+    font-size: 36px;
+    padding: 3rem;
+}
