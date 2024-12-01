@@ -1,11 +1,11 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Usaco Styles",
   "version": "1.0",
   "description": "Styling for train.usaco.org portal",
   "content_scripts": [
     {
-      "matches": ["https://train.usaco.org/usacoprob2*"],
+      "matches": ["https://train.usaco.org/usacoprob2*", "https://usaco.training/usacoprob*"],
       "css": ["style.css"]
     }
   ],
