@@ -5,7 +5,7 @@
   "description": "Styling for train.usaco.org portal",
   "content_scripts": [
     {
-      "matches": ["https://train.usaco.org/usacoprob2*", "https://usaco.training/usacoprob*"],
+      "matches": ["https://train.usaco.org/usacoprob2*", "https://usaco.training/usacoprob*", "https://usaco.training/usacoanal2*"],
       "css": ["style.css"]
     }
   ],
